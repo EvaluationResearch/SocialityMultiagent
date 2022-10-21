@@ -18,7 +18,7 @@ It is configured to be run in conjunction with environments from the
 get 3 different agents. For random agent, " action_n[*] = [random.random(), random.random(), random.random(), random.random(), random.random()]" will let you get a random agent.
 
 - For the  selfish, egalitarian and altruistic agent, please change the parameter "al" in adversary_rewardA and
-agent_rewardA which marked "#change this!!!!!!!!!!!!!!" in maddpg\multiagent\scenarios\simple_tag.py
+agent_rewardA which marked "#change this!!!!!!!!!!!!!!" in SocialityMultiagent\multiagent\scenarios\simple_tag.py
 - To run the , `cd` into the `experiments` directory and run `train.py`:
 
 ``python train.py --scenario simple_tag``
@@ -28,7 +28,7 @@ Then you will get the reward of each agent, and after run the different combinat
 around three weeks.
 
 
-##3.  To get the result in paper, please run the code in maddpg\experiments\sociality
+##3.  To get the result in paper, please run the code in SocialityMultiagent\experiments\sociality
 
 - Please run fig2pred.py and fig2prey.py which will plot the fig2 in paper.
 - ranktestMDLR.py  will plot the fig3 in paper.
