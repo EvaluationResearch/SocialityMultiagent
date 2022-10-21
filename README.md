@@ -14,8 +14,8 @@ It is configured to be run in conjunction with environments from the
 
 ##2.  run the code to get the data
 
-- We have implement the code with different agent in  `train.py`, you could change the policy name to 
-get 4 different agents.
+- We have implement the code with different agent (MADDPG, DDPG, mmmaddpg, and random) in  `train.py`, you could change the policy name in get_trainers to 
+get 3 different agents. For random agent, " action_n[*] = [random.random(), random.random(), random.random(), random.random(), random.random()]" will let you get a random agent.
 
 - For the  selfish, egalitarian and altruistic agent, please change the parameter "al" in adversary_rewardA and
 agent_rewardA which marked "#change this!!!!!!!!!!!!!!" in maddpg\multiagent\scenarios\simple_tag.py
