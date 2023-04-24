@@ -1,3 +1,9 @@
+You can access the code and data at SocialityMultiagent/experiments/Sociality/.
+  1) The results for 2v2 and 3v3 games are 2.csv and 3.csv.
+  2) SE.csv shows the result for selfish predators vs egalitarian prey.
+  3) The outcome for altruistic prey is Aprey.csv.
+  4) The outcome for the altruistic predator is A.csv.
+
 
 This is the code for implementing the MADDPG algorithm presented in the paper:
 [Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments](https://arxiv.org/pdf/1706.02275.pdf).
