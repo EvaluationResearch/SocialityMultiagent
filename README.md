@@ -3,6 +3,7 @@ You can access the code and data at SocialityMultiagent/experiments/Sociality/.
   2) SE.csv shows the result for selfish predators vs egalitarian prey.
   3) The outcome for altruistic prey is Aprey.csv.
   4) The outcome for the altruistic predator is A.csv.
+
 We initially explored the values of sociality in {0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0 } for several combinations of teams with two agents. What we found is that the average results are mostly monotonic (run 7Socalities.py). The data is shown in 7Soci.csv.
 
 This is the code for implementing the MADDPG algorithm presented in the paper:
